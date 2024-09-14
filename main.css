@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color:grey ;
+    padding: 16px 0;
+    color: white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header .container,
+section .container,
+#iphone15, #iphone16 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container h2, 
+.container p {
+    margin-right: 18px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 38px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+#watch, #iphone15, #iphone16 {
+    max-width: 100%;
+}
+
+#watch img, #iphone15 img, #iphone16 img {
+    width: 50%;
+}
+
+section button {
+    display: block;
+    width: 550px;
+    margin-bottom: 8px;
+    padding: 8px;
+    size: 120px;
+}
+
+section button {
+    background-color: grey;
+    color: white;
+    border:none ;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
